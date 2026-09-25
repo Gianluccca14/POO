@@ -1,0 +1,21 @@
+
+(Linha 3): O atributo preco foi colocado como static. Isso significa que todos os produtos vão compartilhar o mesmo preço no sistema. 
+
+
+Linha 7: Esqueceram do sinal de igual = e tentaram atribuir uma String ("A100") para uma variável codigo que é do tipo int.   
+
+Linha 8: Faltou o sinal de = de novo (nome nome;). Como o parâmetro do construtor tem o mesmo nome do atributo, faltou usar o this
+
+Linhas 12 e 13: O método aplicarDesconto é estático (static), mas na linha 13 ele tenta imprimir nome Métodos estáticos não conseguem acessar variáveis que pertencem ao objeto direto assim7
+
+
+Linha 17: No método setCodigo, estão tentando mudar o valor de codigo. Só que ele foi declarado como final.
+
+Linha 20: O método getPreco tá com o tipo de retorno marcado como void. Só que dentro dele tem um return preco;.
+
+Linha 25: Faltou o sinal de = na hora de instanciar o objeto (Produto p1 = new Produto("Teclado");).  
+
+
+Linha 27: Faltou o = de novo e ainda tentaram alterar o atributo codigo direto pela instância, o que dá erro por ele ser final. 
+
+  Linha 29: Mais uma vez faltou o = na atribuição da variável (double valor = p1.getPreco();). 
